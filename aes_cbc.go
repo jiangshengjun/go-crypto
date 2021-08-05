@@ -13,7 +13,7 @@ var key = []byte("key")
 var iv = []byte("iv")
 
 func main() {
-	es, err := Encrypt([]byte("18298101181"))
+	es, err := Encrypt([]byte("182****1181"))
 	if err != nil {
 		log.Println("错误 -" + err.Error())
 		return
